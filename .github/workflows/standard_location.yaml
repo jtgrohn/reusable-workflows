@@ -1,0 +1,9 @@
+name: Standard Location Reusable Workflow
+
+on: workflow_call
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from standard location"
